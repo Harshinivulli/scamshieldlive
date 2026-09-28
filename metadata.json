@@ -1,0 +1,6 @@
+{
+  "name": "ScamShield Live",
+  "description": "Real-time cybersecurity platform providing explainable threat detection, risk scores, and protection against phishing, payment scams, fake job offers, KYC fraud, and malicious links.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

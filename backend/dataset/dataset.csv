@@ -1,0 +1,21 @@
+message_id,message_text,label,scam_category,source
+001,"Your SBI account KYC expires today. Update immediately at http://192.168.1.1/sbi-kyc/auth.php or enter your OTP.",1,KYC Scam,synthetic
+002,"Congratulations! You won ₹50,000 in lucky draw. Pay ₹999 processing fee to claim instantly.",1,Prize / Lottery Scam,synthetic
+003,"Congratulations! You have been selected for work-from-home job. Pay ₹1,500 registration fee.",1,Job Scam,synthetic
+004,"Your meeting is scheduled tomorrow at 10 AM in Conference Room 4B.",0,Normal / Legitimate,synthetic
+005,"URGENT: Your ICICI netbanking has been blocked due to suspicious activity. Enter OTP to restore.",1,OTP Scam,synthetic
+006,"You received ₹2,500 cashback reward. Click upi://pay?pa=scam@upi to accept money directly into your account.",1,UPI / Payment Scam,synthetic
+007,"Invest ₹5,000 in our VIP crypto trading pool and get guaranteed ₹25,000 returns within 24 hours.",1,Investment Scam,synthetic
+008,"HDFC Security Alert: Your debit card has been suspended. Verify your CVV and PIN now.",1,Banking Scam,synthetic
+009,"Microsoft Support: Malicious virus detected on your Windows machine. Install AnyDesk to let our engineer fix it.",1,Technical Support Scam,synthetic
+010,"TRAI Alert: Your SIM card will be deactivated in 2 hours due to unverified documentation. Press 1 to speak with police.",1,Impersonation,synthetic
+011,"Hi Mom, I dropped my phone in water and this is my temporary number. Can you transfer ₹10,000 urgently?",1,Impersonation,synthetic
+012,"Amazon Delivery: Your parcel could not be delivered due to invalid address. Click link to update details.",1,Phishing,synthetic
+013,"Can we reschedule our marketing strategy call to Thursday 3 PM? Thanks, Alex.",0,Normal / Legitimate,synthetic
+014,"Attached is the monthly expense sheet for your review. Let me know if revisions are needed.",0,Normal / Legitimate,synthetic
+015,"Your flight confirmation for booking UK829 has been emailed. Boarding commences 45 mins prior to departure.",0,Normal / Legitimate,synthetic
+016,"Please find the meeting notes from today's sprint review attached to this email.",0,Normal / Legitimate,synthetic
+017,"Important: Pan card not linked with bank account. Click http://bit.ly/pan-link-now to avoid ₹10,000 fine.",1,KYC Scam,synthetic
+018,"Earn ₹4,000 daily by simply watching YouTube videos and liking Instagram posts. Contact manager on Telegram.",1,Job Scam,synthetic
+019,"Dear customer, your electricity bill is unpaid. Power supply will be disconnected tonight at 9:30 PM. Call official at 9876543210.",1,Impersonation,synthetic
+020,"Hey Sarah, are you joining the team lunch at the bistro today around 1 PM?",0,Normal / Legitimate,synthetic
