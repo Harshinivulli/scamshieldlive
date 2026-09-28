@@ -216,7 +216,7 @@ export const ThreatAnalytics: React.FC<ThreatAnalyticsProps> = ({ analytics }) =
                       className="w-1/2 bg-cyan-500/80 hover:bg-cyan-400 rounded-t transition-all relative"
                       style={{ height: `${totalHeight}%` }}
                     >
-                      <div className="absolute -top-7 left-1/2 -translate-x-1/2 hidden group-hover:block bg-slate-950 border border-slate-750 text-[10px] font-mono px-1.5 py-0.5 rounded text-white whitespace-nowrap z-10">
+                      <div className="absolute -top-7 left-1/2 -translate-x-1/2 hidden group-hover:block bg-slate-950 border border-slate-700 text-[10px] font-mono px-1.5 py-0.5 rounded text-white whitespace-nowrap z-10">
                         {item.scans}
                       </div>
                     </div>
@@ -226,7 +226,7 @@ export const ThreatAnalytics: React.FC<ThreatAnalyticsProps> = ({ analytics }) =
                       className="w-1/2 bg-rose-500/80 hover:bg-rose-400 rounded-t transition-all relative"
                       style={{ height: `${threatHeight}%` }}
                     >
-                      <div className="absolute -top-7 left-1/2 -translate-x-1/2 hidden group-hover:block bg-slate-950 border border-slate-750 text-[10px] font-mono px-1.5 py-0.5 rounded text-rose-300 whitespace-nowrap z-10">
+                      <div className="absolute -top-7 left-1/2 -translate-x-1/2 hidden group-hover:block bg-slate-950 border border-slate-700 text-[10px] font-mono px-1.5 py-0.5 rounded text-rose-300 whitespace-nowrap z-10">
                         {item.threats}
                       </div>
                     </div>

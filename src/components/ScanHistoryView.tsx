@@ -219,7 +219,7 @@ export const ScanHistoryView: React.FC<ScanHistoryViewProps> = ({
                 <th className="py-3 px-4 text-right">Action</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-850 text-xs">
+            <tbody className="divide-y divide-slate-800 text-xs">
               {filteredItems.length === 0 ? (
                 <tr>
                   <td colSpan={6} className="py-12 text-center text-slate-500">
@@ -230,7 +230,7 @@ export const ScanHistoryView: React.FC<ScanHistoryViewProps> = ({
                 </tr>
               ) : (
                 filteredItems.map((item) => (
-                  <tr key={item.id} className="hover:bg-slate-850/50 transition-colors">
+                  <tr key={item.id} className="hover:bg-slate-800/50 transition-colors">
                     {/* Date */}
                     <td className="py-3.5 px-4 font-mono text-[11px] text-slate-400 whitespace-nowrap">
                       {item.date}

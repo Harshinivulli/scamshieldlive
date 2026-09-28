@@ -40,7 +40,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   const content = (
-    <aside className="w-64 h-full flex flex-col justify-between py-5 px-3 bg-slate-950 border-r border-slate-850 overflow-y-auto">
+    <aside className="w-64 h-full flex flex-col justify-between py-5 px-3 bg-slate-950 border-r border-slate-800 overflow-y-auto">
       <div className="space-y-6">
         {/* Navigation list */}
         <div className="space-y-1">
@@ -71,7 +71,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </div>
 
         {/* Demo Attacks Section (Requirement 21) */}
-        <div className="pt-2 border-t border-slate-850">
+        <div className="pt-2 border-t border-slate-800">
           <div className="px-3 pb-2.5 flex items-center justify-between text-[11px] font-mono uppercase tracking-wider text-slate-400 font-semibold">
             <span className="flex items-center gap-1.5">
               <AlertOctagon className="w-3.5 h-3.5 text-amber-400" />

@@ -28,7 +28,7 @@ Recommended Action: ${result.recommendedAction}`;
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm overflow-y-auto">
       <div className="relative w-full max-w-2xl bg-slate-950 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden my-8">
         {/* Header */}
-        <div className="px-6 py-4 border-b border-slate-850 flex items-center justify-between bg-slate-900/60">
+        <div className="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-900/60">
           <div className="flex items-center gap-2.5">
             <div className="w-8 h-8 rounded-lg bg-cyan-950 border border-cyan-500/30 flex items-center justify-center text-cyan-400">
               <ShieldAlert className="w-4 h-4" />
@@ -83,7 +83,7 @@ Recommended Action: ${result.recommendedAction}`;
               {result.indicators.map((ind) => (
                 <div
                   key={ind.id}
-                  className="p-3.5 rounded-lg bg-slate-900/70 border border-slate-850 hover:border-slate-750 transition-colors"
+                  className="p-3.5 rounded-lg bg-slate-900/70 border border-slate-800 hover:border-slate-700 transition-colors"
                 >
                   <div className="flex items-start justify-between gap-2">
                     <div className="flex items-center gap-2">
@@ -125,7 +125,7 @@ Recommended Action: ${result.recommendedAction}`;
         </div>
 
         {/* Footer */}
-        <div className="px-6 py-4 border-t border-slate-850 bg-slate-900/60 flex items-center justify-between">
+        <div className="px-6 py-4 border-t border-slate-800 bg-slate-900/60 flex items-center justify-between">
           <button
             onClick={copyReportSummary}
             className="flex items-center gap-1.5 text-xs text-slate-300 hover:text-white px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-750 transition-colors"

@@ -112,7 +112,7 @@ export const MessageScanner: React.FC<MessageScannerProps> = ({
             </button>
 
             {showDemoMenu && (
-              <div className="absolute right-0 mt-2 w-64 rounded-xl bg-slate-900 border border-slate-750 shadow-2xl p-2 z-20 space-y-1">
+              <div className="absolute right-0 mt-2 w-64 rounded-xl bg-slate-900 border border-slate-700 shadow-2xl p-2 z-20 space-y-1">
                 <button
                   onClick={() => loadDemo(1)}
                   className="w-full text-left p-2 rounded-lg hover:bg-slate-800 text-xs transition-colors"

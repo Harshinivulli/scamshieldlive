@@ -137,7 +137,7 @@ export const UrlScanner: React.FC<UrlScannerProps> = ({ onScanComplete }) => {
                 setUrlInput(sample.url);
                 handleScan(sample.url);
               }}
-              className="px-2.5 py-1 text-[11px] font-mono rounded-lg bg-slate-800/80 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-750 transition-colors"
+              className="px-2.5 py-1 text-[11px] font-mono rounded-lg bg-slate-800/80 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-700 transition-colors"
             >
               {sample.label}
             </button>

@@ -216,7 +216,7 @@ export const DashboardOverview: React.FC<DashboardOverviewProps> = ({
               recentScans.map((scan) => (
                 <div
                   key={scan.id}
-                  className="p-3.5 rounded-xl bg-slate-950 border border-slate-850 hover:border-slate-750 transition-colors flex items-center justify-between gap-3"
+                  className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 hover:border-slate-700 transition-colors flex items-center justify-between gap-3"
                 >
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center gap-2 mb-1">

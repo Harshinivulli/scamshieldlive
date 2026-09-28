@@ -60,7 +60,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartScan, onRunDemo
                   const el = document.getElementById('pipeline-section');
                   el?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="w-full sm:w-auto px-6 py-3.5 text-sm font-semibold text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-850 border border-slate-750 rounded-lg transition-all"
+                className="w-full sm:w-auto px-6 py-3.5 text-sm font-semibold text-slate-300 hover:text-white bg-slate-900 hover:bg-slate-800 border border-slate-700 rounded-lg transition-all"
               >
                 Explore Protection
               </button>

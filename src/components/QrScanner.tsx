@@ -159,7 +159,7 @@ export const QrScanner: React.FC<QrScannerProps> = ({ onScanComplete }) => {
           {/* Left: Upload Dropzone */}
           <div
             onClick={() => fileInputRef.current?.click()}
-            className="border-2 border-dashed border-slate-750 hover:border-cyan-500/50 bg-slate-950/60 rounded-xl p-6 text-center cursor-pointer transition-all flex flex-col items-center justify-center min-h-[220px]"
+            className="border-2 border-dashed border-slate-700 hover:border-cyan-500/50 bg-slate-950/60 rounded-xl p-6 text-center cursor-pointer transition-all flex flex-col items-center justify-center min-h-[220px]"
           >
             <input
               ref={fileInputRef}

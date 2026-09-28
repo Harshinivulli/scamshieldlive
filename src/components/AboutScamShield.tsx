@@ -72,7 +72,7 @@ export const AboutScamShield: React.FC = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {pipelineSteps.map((step, idx) => (
-            <div key={idx} className="p-3.5 rounded-xl bg-slate-950 border border-slate-850 space-y-1">
+            <div key={idx} className="p-3.5 rounded-xl bg-slate-950 border border-slate-800 space-y-1">
               <span className="text-[11px] font-mono text-cyan-400 font-semibold">{step.title}</span>
               <p className="text-xs text-slate-300 leading-relaxed">{step.desc}</p>
             </div>
@@ -138,7 +138,7 @@ export const AboutScamShield: React.FC = () => {
                   <th className="py-2.5 px-3">source</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-slate-850 text-slate-300 text-[11px]">
+              <tbody className="divide-y divide-slate-800 text-slate-300 text-[11px]">
                 {datasetSample.map((d) => (
                   <tr key={d.id} className="hover:bg-slate-900/50">
                     <td className="py-2.5 px-3 font-semibold text-cyan-400">{d.id}</td>
@@ -165,22 +165,22 @@ export const AboutScamShield: React.FC = () => {
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-300">
-          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-850">
+          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-800">
             <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
             <span>Zero real OTP generation or SMS interception capabilities.</span>
           </div>
 
-          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-850">
+          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-800">
             <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
             <span>No passwords, banking cards, or personal credentials stored on any server.</span>
           </div>
 
-          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-850">
+          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-800">
             <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
             <span>Quarantine URL analysis never triggers HTTP redirects or script execution.</span>
           </div>
 
-          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-850">
+          <div className="flex items-start gap-2 p-3 rounded-lg bg-slate-950 border border-slate-800">
             <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
             <span>Client-side local audit history can be purged at any time with one click.</span>
           </div>
